@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(245, 245, 245);
+}
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+.left-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.left-list li {
+  display: block;
+  padding: 1rem;
+}
+.left-list a {
+  text-decoration: none;
+  color: black;
+}
+.left-list a:hover {
+  text-decoration: underline;
+}
+.right-list {
+  display: flex;
+}
+.right-list li {
+  list-style: none;
+  display: block;
+  padding: 1rem;
+}
+.right-list a {
+  text-decoration: none;
+  color: black;
+}
+.right-list a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.text h1 {
+  font-size: 6rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  display: flex;
+}
+
+.blue {
+  color: rgb(32, 74, 212);
+}
+.red {
+  color: rgb(204, 52, 52);
+}
+.yellow {
+  color: rgb(207, 177, 75);
+}
+.green {
+  color: green;
+}
+.skew-text {
+  transform: rotate(-30deg);
+}
+.searchbar {
+  width: 50%;
+  height: 2.5rem;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  margin: 10px;
+  color: rgba(141, 136, 136, 1);
+}
+.searchbar input {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  margin: 0 auto;
+  padding: 2px;
+  border-radius: 20px;
+  outline: none;
+  border: 0.1px solid rgba(141, 136, 136, 0.3);
+  background-color: rgb(245, 245, 245);
+}
+.searchbar input:hover {
+  box-shadow: 0.3px 0.3px 3px rgba(82, 80, 80, 0.5);
+  cursor: pointer;
+}
+
+.buttons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.btn {
+  width: 20%;
+  height: 2rem;
+  background-color: rgb(235, 235, 235);
+  padding: 2px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.btn:hover {
+  cursor: pointer;
+}
